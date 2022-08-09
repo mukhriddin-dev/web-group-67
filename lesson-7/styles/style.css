@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:100px;
+   width: 100%;
+}
+
+.container{
+   width: 1200px;
+   margin:0 auto;
+   padding: 20px;
+}
+
+header{
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0.506);
+   transition:all 0.3s ease ;
+   position: fixed;
+   -webkit-transition:all 0.3s ease ;
+   -moz-transition:all 0.3s ease ;
+   -ms-transition:all 0.3s ease ;
+   -o-transition:all 0.3s ease ;
+   backdrop-filter:blur(51px)
+}
+
+.nav{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+   height: 78px;
+   color:#fff;
+}
+
+.nav .nav__ul{
+   display: flex;
+   width: 50%;
+   list-style-type: none;
+   text-transform: uppercase;
+   justify-content: space-between;
+
+}
+
+.nav .nav__ul .nav__ul__list a{
+   text-decoration: none;
+   color:#fff;
+}
+
+/* navbar end */
+
+main{
+   height: auto;
+   width: 100%;
+}
+
+
+.hero{
+   width: 100%;
+   height: 95vh;
+   background-image: url(https://picsum.photos/id/133/800/450);
+   background-repeat: no-repeat;
+   background-size:cover;  
+   background-position:center;
+}
+
+
+
+.text{
+   margin-top: 200px;
+   text-transform: uppercase;
+   font-size: 80px;
+   -webkit-text-fill-color: transparent;
+   -webkit-text-stroke: green;
+   -webkit-text-stroke-width: 2px;
+}
+
+
+
+.text:hover{
+   margin-top: 200px;
+   text-transform: uppercase;
+   font-size: 80px;
+   -webkit-text-fill-color: #fff;
+   -webkit-text-stroke: green;
+   -webkit-text-stroke-width: 2px;
+}
+
+.hero p{
+   font-size: 36px;
+   text-transform: uppercase;
+   color:rgb(229, 255, 0);
+   text-shadow: 1px 1px 1px black;
+}
+
+.hero p:hover{
+  color:red;
+   text-transform: uppercase;
+
+}
+
+.main{
+   width: 100%;
+   height: 95vh;
+   background-image: url(https://picsum.photos/id/123/800/450);
+   background-repeat: no-repeat;
+   background-size:cover;  
+   background-position:center;
+   background-attachment:fixed;
+}
+
+.banner{
+   width: 100%;
+   height: 35vh;
+   background-image: url(https://picsum.photos/id/923/800/450);
+   background-repeat: no-repeat;
+   background-size:cover;  
+   background-position:center;
+}
+
+
+footer{
+   background: rgb(14, 44, 60);
+   color:#fff;
+   font-size: 30px;
+   text-align: center;
+}

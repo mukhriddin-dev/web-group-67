@@ -1,0 +1,56 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: sans-serif;
+   color:green;
+}
+
+
+.card{
+width: 320px;
+height: 560px;
+background-color: rgb(255, 255, 255);
+border: 1px solid #000;
+float: left;
+margin: 90px 30px;
+}
+
+
+.card-title{
+   margin-left: 12px;
+   text-transform: uppercase;
+  color:grey;
+  
+}
+
+.card-text{
+   margin:10px;
+   text-align: justify;
+}
+
+.card-btn{
+   border:none;
+   padding: 10px;
+   margin-left: 12px;
+}
+
+
+ul{
+   background: teal;
+   color:white;
+   padding-left: 40%;
+   height: 50px;
+   padding-top: 15px;
+   text-transform: uppercase;
+}
+
+ul li{
+   display: inline-block;
+   margin-left: 35px;
+}
+
+ul li a{
+   color:#fff;
+   display: inline-block;
+}

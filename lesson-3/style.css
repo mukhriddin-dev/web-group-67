@@ -1,0 +1,17 @@
+.text{
+   color: rgba(255, 0, 64, 0.549);
+   text-align:center;
+   text-transform: uppercase;
+   text-decoration-color: hwb(0 100% 0%);
+   text-decoration-style: double;
+   text-decoration-line:line-through;
+   text-decoration: solid blue  underline;
+   text-indent: 10%;
+   font-size: 25px;
+   font-weight:400;
+   font-family:sans-serif;
+   font-style: normal;
+   line-height: 35px;
+   /* letter-spacing:20px;
+   word-spacing: 34px; */
+}
